@@ -1,40 +1,61 @@
-Expected structure (Rapid7-style learning model)
+# Apache OpenOffice VC Plugin Generation
+
+## Overview
+
+This project demonstrates the **generation of VC plugins** for a selected product (Apache OpenOffice) as part of Rapid7’s content creation workflow.  
+The goal is to **fetch advisories, validate them using Pydantic models, and generate content files (.xml, .vck, .sol)** following Rapid7 standards.  
+
+This approach helps gain **hands-on experience with Nexpose architecture** and understanding its components, rather than directly diving into the Nexpose codebase.
+
+---
+
+## Task Objectives
+
+1. **Select a product** covered by Rapid7  
+   - For this project: **Apache OpenOffice**
+
+2. **Fetch product advisory data**  
+   - Data is extracted from the official Apache OpenOffice security bulletin page  
+   - Data is stored locally in `.html` and `.json` formats
+
+3. **Data Validation using Pydantic**  
+   - Transform the advisory data into **Pydantic objects**  
+   - Validate all fields to ensure consistent structure and correctness
+
+4. **Generate VC Plugin Files**  
+   - From the validated Pydantic objects, generate **three content files per CVE**:  
+     - `.xml` – XML representation of the advisory  
+     - `.vck` – VC plugin file  
+     - `.sol` – Solution file  
+   - Follow **Rapid7 standards** for file structure and naming
+
+5. **Organize content files**  
+   - All generated files are stored locally under the `Content/Apache_OpenOffice` directory  
+   - Each CVE gets a separate set of `.xml`, `.vck`, and `.sol` files
+
+---
+
+
+## Project Structure
+
 openoffice_vc_plugin/
-├── fetch_openoffice_advisory.py
-├── generate_vc_plugin.py
-├── models/
-│   └── cve.py
+│
+├── Content/
+│   └── Apache_OpenOffice/
+│       ├── CVE-XXXX-XXXX.xml
+│       ├── CVE-XXXX-XXXX.vck
+│       └── CVE-XXXX-XXXX.sol
+│
 ├── data/
 │   ├── raw/
 │   │   └── openoffice_advisory.html
 │   └── parsed/
-│       ├── openoffice_vulns.json
-│       └── cves/
-│           └── CVE-XXXX-YYYY.json
-├── Content/
-│   └── OpenOffice/
-│       ├── CVEs/
-│       │   ├── CVE-XXXX-YYYY.xml
-│       │   ├── CVE-XXXX-YYYY.vck
-│       │   └── CVE-XXXX-YYYY.sol
-│       └── product.vck
+│       └── openoffice_advisory.json
+│
+├── scripts/
+│   ├── fetch_openoffice_advisory.py
+│   └── generate_vc_plugin.py
+│
 ├── requirements.txt
 └── README.md
-👉 You must create Content/, and README.md manually or via script
 
-Step 1: Setup
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-Step 2: Fetch advisory data
-    python3 fetch_openoffice_advisory.py
-Step 3: Validate & generate plugin content
-    python3 generate_vc_plugin.py
-Step 4: Verify output
-    Content/OpenOffice/CVEs/
-    Content/OpenOffice/product.vck
-
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 fetch_openoffice_advisory.py
