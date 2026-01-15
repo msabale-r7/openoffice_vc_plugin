@@ -32,28 +32,4 @@
 ---
 
 
-## Project Structure
-
-openoffice_vc_plugin/
-│
-├── Content/
-│   └── Apache_OpenOffice/
-│       ├── CVE-XXXX-XXXX.xml
-│       ├── CVE-XXXX-XXXX.vck
-│       └── CVE-XXXX-XXXX.sol
-│
-├── data/
-│   ├── raw/
-│   │   └── openoffice_advisory.html
-│   └── parsed/
-│       └── openoffice_advisory.json
-│
-├── scripts/
-│   ├── fetch_openoffice_advisory.py
-│   └── generate_vc_plugin.py
-│
-├── requirements.txt
-└── README.md
-
----
 
