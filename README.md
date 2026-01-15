@@ -2,14 +2,10 @@
 
 ## Overview
 
-This project demonstrates the **generation of VC plugins** for a selected product (Apache OpenOffice) as part of Rapid7’s content creation workflow.  
-The goal is to **fetch advisories, validate them using Pydantic models, and generate content files (.xml, .vck, .sol)** following Rapid7 standards.  
-
-This approach helps gain **hands-on experience with Nexpose architecture** and understanding its components, rather than directly diving into the Nexpose codebase.
 
 ---
 
-## Task Objectives
+## Task -
 
 1. **Select a product** covered by Rapid7  
    - For this project: **Apache OpenOffice**
@@ -58,4 +54,6 @@ openoffice_vc_plugin/
 │
 ├── requirements.txt
 └── README.md
+
+---
 
