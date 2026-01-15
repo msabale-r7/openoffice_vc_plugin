@@ -1,0 +1,584 @@
+[
+  {
+    "cve_id": "CVE-2025-64401",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64401: Remote documents loaded without prompt via IFrame.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64401.html"
+  },
+  {
+    "cve_id": "CVE-2025-64402",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64402: Remote documents loaded without prompt via OLE objects.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64402.html"
+  },
+  {
+    "cve_id": "CVE-2025-64403",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64403: Remote documents loaded without prompt via \"external data sources\" in Calc.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64403.html"
+  },
+  {
+    "cve_id": "CVE-2025-64404",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64404: Remote documents loaded without prompt via background and bullet images.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64404.html"
+  },
+  {
+    "cve_id": "CVE-2025-64405",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64405: Remote documents loaded without prompt via DDE function.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64405.html"
+  },
+  {
+    "cve_id": "CVE-2025-64406",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64406: Possible memory corruption during CSV import.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64406.html"
+  },
+  {
+    "cve_id": "CVE-2025-64407",
+    "version": "Fixed in Apache OpenOffice 4.1.16",
+    "summary": "CVE-2025-64407: URL fetching can be used to exfiltrate arbitrary INI file values and environment variables.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2025-64407.html"
+  },
+  {
+    "cve_id": "CVE-2012-5639",
+    "version": "Fixed in Apache OpenOffice 4.1.15",
+    "summary": "CVE-2012-5639: Loading internal / external resource without warning.",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-5639.html"
+  },
+  {
+    "cve_id": "CVE-2022-43680",
+    "version": "Fixed in Apache OpenOffice 4.1.15",
+    "summary": "CVE-2022-43680: \"Use after free\" fixed in expat >= 2.4.9",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-43680.html"
+  },
+  {
+    "cve_id": "CVE-2023-1183",
+    "version": "Fixed in Apache OpenOffice 4.1.15",
+    "summary": "CVE-2023-1183: Arbitrary file write in Base",
+    "link": "https://www.openoffice.org/security/cves/CVE-2023-1183.html"
+  },
+  {
+    "cve_id": "CVE-2023-47804",
+    "version": "Fixed in Apache OpenOffice 4.1.15",
+    "summary": "CVE-2023-47804: Macro URL arbitrary script execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2023-47804.html"
+  },
+  {
+    "cve_id": "CVE-2022-38745",
+    "version": "Fixed in Apache OpenOffice 4.1.14",
+    "summary": "CVE-2022-38745: An empty class path may lead to run arbitrary Java code",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-38745.html"
+  },
+  {
+    "cve_id": "CVE-2022-40674",
+    "version": "Fixed in Apache OpenOffice 4.1.14",
+    "summary": "CVE-2022-40674: \"Use after free\" fixed in expat >= 2.4.9",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-40674.html"
+  },
+  {
+    "cve_id": "CVE-2022-47502",
+    "version": "Fixed in Apache OpenOffice 4.1.14",
+    "summary": "CVE-2022-47502: Macro URL arbitrary script execution without warning",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-47502.html"
+  },
+  {
+    "cve_id": "CVE-2022-37400",
+    "version": "Fixed in Apache OpenOffice 4.1.13",
+    "summary": "CVE-2022-37400: Static Initialization Vector Allows to Recover Passwords for Web Connections Without Knowing the Master Password",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-37400.html"
+  },
+  {
+    "cve_id": "CVE-2022-37401",
+    "version": "Fixed in Apache OpenOffice 4.1.13",
+    "summary": "CVE-2022-37401: Weak Master Keys",
+    "link": "https://www.openoffice.org/security/cves/CVE-2022-37401.html"
+  },
+  {
+    "cve_id": "CVE-2021-28129",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-28129: DEB packaging installed with a non-root userid and groupid",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-28129.html"
+  },
+  {
+    "cve_id": "CVE-2021-33035",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-33035: Buffer overflow from a crafted DBF file",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-33035.html"
+  },
+  {
+    "cve_id": "CVE-2021-40439",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-40439: \"Billion Laughs\" fixed in Expat >=2.4.0",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-40439.html"
+  },
+  {
+    "cve_id": "CVE-2021-41830",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-41830: #1 Content Manipulation with Certificate Double Attack",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-41830.html"
+  },
+  {
+    "cve_id": "CVE-2021-41830",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-41830: #2 Macro Manipulation with Certificate Double Attack",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-41830.html"
+  },
+  {
+    "cve_id": "CVE-2021-41831",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-41831: #3 Timestamp Manipulation with Signature Wrapping",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-41831.html"
+  },
+  {
+    "cve_id": "CVE-2021-41832",
+    "version": "Fixed in Apache OpenOffice 4.1.11",
+    "summary": "CVE-2021-41832: #4 Content Manipulation with Certificate Validation Attack",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-41832.html"
+  },
+  {
+    "cve_id": "CVE-2021-30245",
+    "version": "Fixed in Apache OpenOffice 4.1.10",
+    "summary": "CVE-2021-30245: Code execution in Apache OpenOffice via non-http(s) schemes in Hyperlinks",
+    "link": "https://www.openoffice.org/security/cves/CVE-2021-30245.html"
+  },
+  {
+    "cve_id": "CVE-2020-13958",
+    "version": "Fixed in Apache OpenOffice 4.1.8",
+    "summary": "CVE-2020-13958: Unrestricted actions leads to arbitrary code execution in crafted documents",
+    "link": "https://www.openoffice.org/security/cves/CVE-2020-13958.html"
+  },
+  {
+    "cve_id": "CVE-2019-9853",
+    "version": "Fixed in Apache OpenOffice 4.1.7",
+    "summary": "CVE-2019-9853: Insufficient URL decoding flaw in categorizing macro location",
+    "link": "https://www.openoffice.org/security/cves/CVE-2019-9853.html"
+  },
+  {
+    "cve_id": "CVE-2018-11790",
+    "version": "Fixed in Apache OpenOffice 4.1.6",
+    "summary": "CVE-2018-11790: Arithmetic overflow and wrap around during string length calculation",
+    "link": "https://www.openoffice.org/security/cves/CVE-2018-11790.html"
+  },
+  {
+    "cve_id": "CVE-2017-3157",
+    "version": "Fixed in Apache OpenOffice 4.1.4",
+    "summary": "CVE-2017-3157:  Arbitrary file disclosure in Calc and Writer",
+    "link": "https://www.openoffice.org/security/cves/CVE-2017-3157.html"
+  },
+  {
+    "cve_id": "CVE-2017-9806",
+    "version": "Fixed in Apache OpenOffice 4.1.4",
+    "summary": "CVE-2017-9806:  Out-of-Bounds Write in Writer's WW8Fonts Constructor",
+    "link": "https://www.openoffice.org/security/cves/CVE-2017-9806.html"
+  },
+  {
+    "cve_id": "CVE-2017-12607",
+    "version": "Fixed in Apache OpenOffice 4.1.4",
+    "summary": "CVE-2017-12607:  Out-of-Bounds Write in Impress' PPT Filter",
+    "link": "https://www.openoffice.org/security/cves/CVE-2017-12607.html"
+  },
+  {
+    "cve_id": "CVE-2017-12608",
+    "version": "Fixed in Apache OpenOffice 4.1.4",
+    "summary": "CVE-2017-12608:  Out-of-Bounds Write in Writer's ImportOldFormatStyles",
+    "link": "https://www.openoffice.org/security/cves/CVE-2017-12608.html"
+  },
+  {
+    "cve_id": "CVE-2016-1513",
+    "version": "Fixed in Apache OpenOffice 4.1.3",
+    "summary": "CVE-2016-1513: Memory Corruption Vulnerability (Impress Presentations)",
+    "link": "https://www.openoffice.org/security/cves/CVE-2016-1513.html"
+  },
+  {
+    "cve_id": "CVE-2016-6803",
+    "version": "Fixed in Apache OpenOffice 4.1.3",
+    "summary": "CVE-2016-6803: Windows Installer Can Enable Privileged Trojan Execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2016-6803.html"
+  },
+  {
+    "cve_id": "CVE-2016-6804",
+    "version": "Fixed in Apache OpenOffice 4.1.3",
+    "summary": "CVE-2016-6804: Windows Installer Execution of Arbitrary Code with Elevated Privileges",
+    "link": "https://www.openoffice.org/security/cves/CVE-2016-6804.html"
+  },
+  {
+    "cve_id": "CVE-2015-1774",
+    "version": "Fixed in Apache OpenOffice 4.1.2",
+    "summary": "CVE-2015-1774: Out-of-Bounds Write in HWP File Filter",
+    "link": "https://www.openoffice.org/security/cves/CVE-2015-1774.html"
+  },
+  {
+    "cve_id": "CVE-2015-4551",
+    "version": "Fixed in Apache OpenOffice 4.1.2",
+    "summary": "CVE-2015-4551: Targeted Data Disclosure",
+    "link": "https://www.openoffice.org/security/cves/CVE-2015-4551.html"
+  },
+  {
+    "cve_id": "CVE-2015-5212",
+    "version": "Fixed in Apache OpenOffice 4.1.2",
+    "summary": "CVE-2015-5212: ODF Printer Settings Vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2015-5212.html"
+  },
+  {
+    "cve_id": "CVE-2015-5213",
+    "version": "Fixed in Apache OpenOffice 4.1.2",
+    "summary": "CVE-2015-5213: .DOC Document Vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2015-5213.html"
+  },
+  {
+    "cve_id": "CVE-2015-5214",
+    "version": "Fixed in Apache OpenOffice 4.1.2",
+    "summary": "CVE-2015-5214: .DOC Bookmarks Vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2015-5214.html"
+  },
+  {
+    "cve_id": "CVE-2014-3575",
+    "version": "Fixed in Apache OpenOffice 4.1.1",
+    "summary": "CVE-2014-3575: Targeted Data Exposure Using Crafted OLE Objects in Apache OpenOffice",
+    "link": "https://www.openoffice.org/security/cves/CVE-2014-3575.html"
+  },
+  {
+    "cve_id": "CVE-2014-3524",
+    "version": "Fixed in Apache OpenOffice 4.1.1",
+    "summary": "CVE-2014-3524: Calc Command Injection Vulnerability in Apache OpenOffice",
+    "link": "https://www.openoffice.org/security/cves/CVE-2014-3524.html"
+  },
+  {
+    "cve_id": "CVE-2013-2189",
+    "version": "Fixed in Apache OpenOffice 4.0.0",
+    "summary": "CVE-2013-2189: DOC Memory Corruption Vulnerability in Apache OpenOffice",
+    "link": "https://www.openoffice.org/security/cves/CVE-2013-2189.html"
+  },
+  {
+    "cve_id": "CVE-2013-4156",
+    "version": "Fixed in Apache OpenOffice 4.0.0",
+    "summary": "CVE-2013-4156: DOCM Memory Corruption Vulnerability in Apache OpenOffice",
+    "link": "https://www.openoffice.org/security/cves/CVE-2013-4156.html"
+  },
+  {
+    "cve_id": "CVE-2012-2665",
+    "version": "Fixed in Apache OpenOffice 3.4.1",
+    "summary": "CVE-2012-2665: Manifest-processing errors in Apache OpenOffice 3.4.0",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-2665.html"
+  },
+  {
+    "cve_id": "CVE-2013-1571",
+    "version": "Fixed in Apache OpenOffice 3.4.1",
+    "summary": "CVE-2013-1571: Frame Injection Vulnerability in SDK JavaDoc",
+    "link": "https://www.openoffice.org/security/cves/CVE-2013-1571.html"
+  },
+  {
+    "cve_id": "CVE-2012-1149",
+    "version": "Fixed in Apache OpenOffice 3.4.0",
+    "summary": "CVE-2012-1149: OpenOffice.org integer overflow error in vclmi.dll module when allocating memory for an embedded image object",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-1149.html"
+  },
+  {
+    "cve_id": "CVE-2012-2149",
+    "version": "Fixed in Apache OpenOffice 3.4.0",
+    "summary": "CVE-2012-2149: OpenOffice.org memory overwrite vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-2149.html"
+  },
+  {
+    "cve_id": "CVE-2012-2334",
+    "version": "Fixed in Apache OpenOffice 3.4.0",
+    "summary": "CVE-2012-2334: Vulnerabilities related to malformed Powerpoint files in OpenOffice.org 3.3.0",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-2334.html"
+  },
+  {
+    "cve_id": "CVE-2012-0037",
+    "version": "Patches for OpenOffice.org 3.3",
+    "summary": "CVE-2012-0037: OpenOffice.org data leakage vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2012-0037.html"
+  },
+  {
+    "cve_id": "CVE-2010-2935",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-2935 / CVE-2010-2936: Security Vulnerability in OpenOffice.org related to PowerPoint document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-2935_CVE-2010-2936.html"
+  },
+  {
+    "cve_id": "CVE-2010-2936",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-2935 / CVE-2010-2936: Security Vulnerability in OpenOffice.org related to PowerPoint document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-2935_CVE-2010-2936.html"
+  },
+  {
+    "cve_id": "CVE-2010-3450",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3450: Security Vulnerability in OpenOffice.org related to Extensions and filter package files",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3450.html"
+  },
+  {
+    "cve_id": "CVE-2010-3451",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3451 / CVE-2010-3452: Security Vulnerability in OpenOffice.org related to RTF document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3451_CVE-2010-3452.html"
+  },
+  {
+    "cve_id": "CVE-2010-3452",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3451 / CVE-2010-3452: Security Vulnerability in OpenOffice.org related to RTF document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3451_CVE-2010-3452.html"
+  },
+  {
+    "cve_id": "CVE-2010-3453",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3453 / CVE-2010-3454: Security Vulnerability in OpenOffice.org related to Word document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3453_CVE-2010-3454.html"
+  },
+  {
+    "cve_id": "CVE-2010-3454",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3453 / CVE-2010-3454: Security Vulnerability in OpenOffice.org related to Word document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3453_CVE-2010-3454.html"
+  },
+  {
+    "cve_id": "CVE-2010-3689",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3689: Insecure LD_LIBRARY_PATH usage in OpenOffice.org shell scripts",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3689.html"
+  },
+  {
+    "cve_id": "CVE-2010-3702",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3702 / CVE-2010-3704: Security Vulnerability in OpenOffice.org's PDF Import extension resulting from 3rd party library XPDF",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3702_CVE-2010-3704.html"
+  },
+  {
+    "cve_id": "CVE-2010-3704",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-3702 / CVE-2010-3704: Security Vulnerability in OpenOffice.org's PDF Import extension resulting from 3rd party library XPDF",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-3702_CVE-2010-3704.html"
+  },
+  {
+    "cve_id": "CVE-2010-4008",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-4008 / CVE-2010-4494: Possible Security Vulnerability in OpenOffice.org resulting from 3rd party library LIBXML2",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-4008_CVE-2010-4494.html"
+  },
+  {
+    "cve_id": "CVE-2010-4494",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-4008 / CVE-2010-4494: Possible Security Vulnerability in OpenOffice.org resulting from 3rd party library LIBXML2",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-4008_CVE-2010-4494.html"
+  },
+  {
+    "cve_id": "CVE-2010-4253",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-4253: Security Vulnerability in OpenOffice.org related to PNG file processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-4253.html"
+  },
+  {
+    "cve_id": "CVE-2010-4643",
+    "version": "Fixed in OpenOffice.org 3.3",
+    "summary": "CVE-2010-4643: Security Vulnerability in OpenOffice.org related to TGA file processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-4643.html"
+  },
+  {
+    "cve_id": "CVE-2009-3555",
+    "version": "Fixed in OpenOffice.org 3.2.1",
+    "summary": "CVE-2009-3555: OpenOffice.org 2 and 3 may be affected by the TLS/SSL Renegotiation Issue in 3rd Party Libraries",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-3555.html"
+  },
+  {
+    "cve_id": "CVE-2010-0395",
+    "version": "Fixed in OpenOffice.org 3.2.1",
+    "summary": "CVE-2010-0395: Security vulnerability in OpenOffice.org related to python scripting",
+    "link": "https://www.openoffice.org/security/cves/CVE-2010-0395.html"
+  },
+  {
+    "cve_id": "CVE-2006-4339",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2006-4339: Potential vulnerability from 3rd party libxml2 libraries",
+    "link": "https://www.openoffice.org/security/cves/CVE-2006-4339.html"
+  },
+  {
+    "cve_id": "CVE-2009-0217",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2009-0217: Potential vulnerability from 3rd party libxmlsec libraries",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-0217.html"
+  },
+  {
+    "cve_id": "CVE-2009-2493",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2009-2493: OpenOffice.org 3 for Windows bundles a vulnerable version of MSVC Runtime",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2493.html"
+  },
+  {
+    "cve_id": "CVE-2009-2949",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2009-2949: Potential vulnerability related to XPM file processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2949.html"
+  },
+  {
+    "cve_id": "CVE-2009-2950",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2009-2950: Potential vulnerability related to GIF file processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2950.html"
+  },
+  {
+    "cve_id": "CVE-2009-3301",
+    "version": "Fixed in OpenOffice.org 3.2",
+    "summary": "CVE-2009-3301/2: Potential vulnerability related to MS-Word document processing",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-3301-3302.html"
+  },
+  {
+    "cve_id": "CVE-2009-0200",
+    "version": "Fixed in OpenOffice.org 3.1.1",
+    "summary": "CVE-2009-0200 / CVE-2009-0201: Manipulated Microsoft Word files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-0200-0201.html"
+  },
+  {
+    "cve_id": "CVE-2009-0201",
+    "version": "Fixed in OpenOffice.org 3.1.1",
+    "summary": "CVE-2009-0200 / CVE-2009-0201: Manipulated Microsoft Word files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-0200-0201.html"
+  },
+  {
+    "cve_id": "CVE-2009-2414",
+    "version": "Fixed in OpenOffice.org 3.1.1",
+    "summary": "CVE-2009-2414 / CVE-2009-2416: Manipulated XML documents can lead to arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2414-2416.html"
+  },
+  {
+    "cve_id": "CVE-2009-2416",
+    "version": "Fixed in OpenOffice.org 3.1.1",
+    "summary": "CVE-2009-2414 / CVE-2009-2416: Manipulated XML documents can lead to arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2414-2416.html"
+  },
+  {
+    "cve_id": "CVE-2009-0200",
+    "version": "Fixed in OpenOffice.org 2.4.3",
+    "summary": "CVE-2009-0200 / CVE-2009-0201: Manipulated Microsoft Word files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-0200-0201.html"
+  },
+  {
+    "cve_id": "CVE-2009-0201",
+    "version": "Fixed in OpenOffice.org 2.4.3",
+    "summary": "CVE-2009-0200 / CVE-2009-0201: Manipulated Microsoft Word files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-0200-0201.html"
+  },
+  {
+    "cve_id": "CVE-2009-2414",
+    "version": "Fixed in OpenOffice.org 2.4.3",
+    "summary": "CVE-2009-2414 / CVE-2009-2416: Manipulated XML documents can lead to arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2414-2416.html"
+  },
+  {
+    "cve_id": "CVE-2009-2416",
+    "version": "Fixed in OpenOffice.org 2.4.3",
+    "summary": "CVE-2009-2414 / CVE-2009-2416: Manipulated XML documents can lead to arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2009-2414-2416.html"
+  },
+  {
+    "cve_id": "CVE-2008-2237",
+    "version": "Fixed in OpenOffice.org 2.4.2",
+    "summary": "CVE-2008-2237: Manipulated WMF files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2008-2237.html"
+  },
+  {
+    "cve_id": "CVE-2008-2238",
+    "version": "Fixed in OpenOffice.org 2.4.2",
+    "summary": "CVE-2008-2238: Manipulated EMF files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2008-2238.html"
+  },
+  {
+    "cve_id": "CVE-2008-2152",
+    "version": "Fixed in OpenOffice.org 2.4.1",
+    "summary": "CVE-2008-2152: Different kinds of manipulated files may lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2008-2152.html"
+  },
+  {
+    "cve_id": "CVE-2007-4770",
+    "version": "Fixed in OpenOffice.org 2.4",
+    "summary": "CVE-2007-4770/4771: Manipulated ODF text documents containing XForms can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-4770.html"
+  },
+  {
+    "cve_id": "CVE-2007-5745",
+    "version": "Fixed in OpenOffice.org 2.4",
+    "summary": "CVE-2007-5745/5747: Manipulated Quattro Pro files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-5745.html"
+  },
+  {
+    "cve_id": "CVE-2007-5746",
+    "version": "Fixed in OpenOffice.org 2.4",
+    "summary": "CVE-2007-5746: Manipulated EMF files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-5746.html"
+  },
+  {
+    "cve_id": "CVE-2008-0320",
+    "version": "Fixed in OpenOffice.org 2.4",
+    "summary": "CVE-2008-0320: Manipulated OLE files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2008-0320.html"
+  },
+  {
+    "cve_id": "CVE-2007-4575",
+    "version": "Fixed in OpenOffice.org 2.3.1",
+    "summary": "CVE-2007-4575: Potential arbitrary code execution vulnerability in 3rd party module (HSQLDB)",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-4575.html"
+  },
+  {
+    "cve_id": "CVE-2007-2834",
+    "version": "Fixed in OpenOffice.org 2.3",
+    "summary": "CVE-2007-2834: Manipulated TIFF files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-2834.html"
+  },
+  {
+    "cve_id": "CVE-2007-2754",
+    "version": "Fixed in OpenOffice.org 2.2.1",
+    "summary": "CVE-2007-2754: Integer overflow and heap-based buffer overflow vulnerability in 3rd party module (freetype)",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-2754.html"
+  },
+  {
+    "cve_id": "CVE-2007-0245",
+    "version": "Fixed in OpenOffice.org 2.2.1",
+    "summary": "CVE-2007-0245: Manipulated RTF files can lead to heap overflows and arbitrary code execution",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-0245.html"
+  },
+  {
+    "cve_id": "CVE-2007-0239",
+    "version": "Fixed in OpenOffice.org 2.2",
+    "summary": "CVE-2007-0239: URL Handling Security Vulnerability (Linux/Solaris)",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-0239.html"
+  },
+  {
+    "cve_id": "CVE-2007-0238",
+    "version": "Fixed in OpenOffice.org 2.2",
+    "summary": "CVE-2007-0238: StarCalc Vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-0238.html"
+  },
+  {
+    "cve_id": "CVE-2007-002",
+    "version": "Fixed in OpenOffice.org 2.2",
+    "summary": "CVE-2007-002: WordPerfect Import Vulnerability",
+    "link": "https://www.openoffice.org/security/cves/CVE-2007-2.html"
+  },
+  {
+    "cve_id": "CVE-2006-5870",
+    "version": "Fixed in OpenOffice.org 2.1",
+    "summary": "CVE-2006-5870: WMF/EMF Processing Failures",
+    "link": "https://www.openoffice.org/security/cves/CVE-2006-5870.html"
+  },
+  {
+    "cve_id": "CVE-2006-2199",
+    "version": "Fixed in OpenOffice.org 2.0.3",
+    "summary": "CVE-2006-2199: Java Applets",
+    "link": "https://www.openoffice.org/security/cves/CVE-2006-2199.html"
+  },
+  {
+    "cve_id": "CVE-2006-2198",
+    "version": "Fixed in OpenOffice.org 2.0.3",
+    "summary": "CVE-2006-2198: Macro",
+    "link": "https://www.openoffice.org/security/cves/CVE-2006-2198.html"
+  },
+  {
+    "cve_id": "CVE-2006-3117",
+    "version": "Fixed in OpenOffice.org 2.0.3",
+    "summary": "CVE-2006-3117: File Format",
+    "link": "https://www.openoffice.org/security/cves/CVE-2006-3117.html"
+  }
+]
